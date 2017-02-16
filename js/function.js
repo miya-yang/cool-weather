@@ -22,11 +22,10 @@ var init = {
     },
     //读取省市下拉列表
     readProvince : function(){
-        var url = "json/china-city-list.json";
         $.ajax({
             url : this._url,
             success : function(data){
-                data = JSON.parse(data);
+                //data = eval('(' + data + ')');
                 var province = {};
                 //将JSON省份存入 province 对象并去重
                 for(var i = 0;i < data.length;i++){
@@ -53,7 +52,7 @@ var init = {
         $.ajax({
             url : this._url,
             success: function(data){
-                data = JSON.parse(data);
+                //data = JSON.parse(data);
                 //重置数据
                 $("#city").children("option").remove();
                 //添加数据
