@@ -1,0 +1,17 @@
+@import "../helpers/_mixin";
+
+.search {
+  @include margin(10px);
+
+  select {
+    color: #FFF;
+    border: 1px solid #57D2F7;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: rgba(153, 102, 204, 0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+}

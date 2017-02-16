@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cool天气</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-bar">
+            <label class="logo">Cool weather</label><!-- end logo -->
+        </div><!-- end header-bar -->
+        <div class="search">
+            <select id="province">
+            </select>
+            <select id="city">
+            </select>
+        </div><!-- end search -->
+        <div class="temperature-box">
+            <label class="city-name">--</label><!-- end city-name -->
+            <label class="datetime"><span id="datetime"></span> 发布</label><!-- end datetime -->
+            <label class="temperature"><span id="temperature">--</span>℃</label><!-- end temperature -->
+        </div><!-- end temperature-box -->
+    </div><!-- end container -->
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/function.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

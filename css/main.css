@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  color: #FFF;
+  height: 1000px;
+}
+.container label {
+  display: block;
+}
+
+.header-bar {
+  width: 100%;
+  padding: 15px 0;
+}
+.header-bar .logo {
+  margin: 0 0 0 15%;
+  font-size: 26px;
+  font-family: "Source Code Pro";
+}
+
+.temperature-box {
+  margin: 20px 0 0 15%;
+  position: absolute;
+  bottom: 50px;
+}
+.temperature-box .city-name {
+  font-size: 90px;
+  letter-spacing: 5px;
+}
+.temperature-box .temperature {
+  font-size: 78px;
+  margin: 10px 0 0 5px;
+}
+.temperature-box #temperature {
+  font-size: 276px;
+}
+.temperature-box .datetime {
+  padding: 10px 0 0 0;
+  font-size: 20px;
+}
+
+.search {
+  margin: 10px 0 0 15%;
+}
+.search select {
+  color: #FFF;
+  border: 1px solid #57D2F7;
+  padding: 10px 20px;
+  font-size: 20px;
+  background: rgba(153, 102, 204, 0.5);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */

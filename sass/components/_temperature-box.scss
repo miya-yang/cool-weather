@@ -1,0 +1,22 @@
+@import "../helpers/_mixin";
+
+.temperature-box {
+  @include margin(20px);
+  position: absolute;
+  bottom: 50px;
+  .city-name {
+    font-size: 90px;
+    letter-spacing: 5px;
+  }
+  .temperature {
+    font-size: 78px;
+    @include margin(10px,0,0,5px);
+  }
+  #temperature {
+    font-size: 276px;
+  }
+  .datetime {
+    padding: 10px 0 0 0;
+    font-size: 20px;
+  }
+}
